@@ -1,0 +1,103 @@
+/*Base CSS*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+html,
+head,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    outline: 0 solid;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sectionPadding {
+    padding: 80px 0;
+}
+
+.singleServiceBox {
+    position: relative;
+}
+
+.serviceBoxBg1 {
+    background-image: url('../img/bg1.jpg');
+}
+
+.serviceBoxBg2 {
+    background-image: url('../img/bg2.jpg');
+}
+
+.serviceBoxBg3 {
+    background-image: url('../img/bg3.jpg');
+}
+
+.serviceBoxBg {
+    height: 210px;
+    background-size: cover;
+    background-position: center;
+}
+
+.serviceBoxInner {
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #EEEEEE;
+    border-top: none;
+}
+
+.serviceBoxInner h3 {
+    font-size: 14px;
+}
+
+.serviceBoxMeta {
+    font-size: 10px;
+    color: #999999;
+}
+
+.serviceBoxMoreWrap {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: -20px;
+}
+
+.border-btn {
+    display: inline-block;
+    color: #9D9D9D;
+    background: #fff;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid #EEEEEE
+}
